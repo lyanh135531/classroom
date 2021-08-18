@@ -1,0 +1,5 @@
+- Đăng nhập bằng: signin.php
+- Tất cả pass đăng nhập là: 123456
+- Hiện tại trong csdl có các tài khoản: lyanh@gmail.com, huudong@gmail.com, dinhkhoi@gmail.com, dangminhthang@gmail.com
+- Tài khoản admin: admin@gmail.com
+- Pass admin: admin123456

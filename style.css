@@ -1,0 +1,310 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.signup, .signin, .forgotemail, .newpass {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/1691700.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col-10.col-md-7.col-xl-5 {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.login-heading, .forgotemail-heading {
+    font-size: 50px;
+}
+.form-group label {
+    font-size: 20px;
+}
+
+#addon-wrapping {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-size: 20px;
+}   
+
+
+.input-group .form-control {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    color: white;
+}
+
+.row.pass-check {
+    padding-top: 15px;
+}
+
+#checkbox {
+    margin-right: 8px;
+}
+
+p > a {
+    text-decoration: underline;
+}
+
+.contactform-buttons {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.info-user {
+    float: left;
+}
+
+.send-buttons {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.forgot-btn {
+    padding-top: 60px;
+}
+
+.confirm-buttons {
+    width: 80%;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.name-user {
+    margin-bottom: -8px;
+    font-size: 20px;
+}
+
+.create-icon a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 8px 12px 8px 12px;
+    border-radius: 50%;
+}
+
+.create-icon a:hover {
+    background-color: rgb(81, 82, 83);
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(119, 115, 115);
+}
+
+.class-info {
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px;
+    background-image: url("https://gstatic.com/classroom/themes/img_backtoschool.jpg");
+    background-repeat: no-repeat;
+}
+.class-info:hover {
+    text-decoration: underline;
+    color: white;
+}
+.class-info-teacher {
+    display: flex;
+    position: relative;
+    padding: 12px 12px 4px;
+}
+.class-link {
+    display: block;
+    color: white;
+}
+.class-name {
+    color: white;
+    font-size: 22px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+.teacher-name {
+    color: white;
+    padding: 0px 12px 18px 12px;
+}
+.class-content{
+    padding: 16px;
+    border: 1px solid #dadce0;
+    height: 150px;
+}
+.teacher-img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    position: relative;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+.class-edit {
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #dadce0;
+    border-top: none;
+    height: 50px;
+}
+.delete.btn, .edit.btn {
+    margin: 7px 16px 6px 0px;
+    padding: 4px 24px;
+}
+.cell {
+    box-shadow: 4px 8px 15px 2px rgba(0,0,0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    display: block;
+}
+.cell:hover {
+    box-shadow: 4px 8px 15px 8px rgba(0,0,0, 0.3);
+}
+.create-class, .home, .admin, .delete-class, .subject-page, .create-student, .attendance {
+    margin-top: 80px;
+}
+.title-create-class, .title-create-student {
+    font-size: 40px;
+}
+.infor-create-class, .infor-create-student {
+    font-size: 20px;
+}
+.img-create-class, .url-img-create-class {
+    display: inline;
+}
+.btn-create-class, .btn-delete-class, .btn-create-student-submit{
+    width: 100%;
+    padding: 8px;
+    font-size: 24px;
+}
+.item img {
+    height: 100px;
+}
+.nav-item .nav-link {
+    font-size: 20px;
+}
+.subject-info {
+    background-size: cover;
+    border-radius: 8px;
+    background-image: url("https://gstatic.com/classroom/themes/img_backtoschool.jpg");
+    background-repeat: no-repeat;
+    height: 250px;
+    color: white;
+}
+.title-subject {
+    font-size: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.subtitle-subject {
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+.total-people {
+    margin-top: 8px;
+    font-size: 20px;
+}
+.notification-info {
+    border-radius: 8px;
+}
+
+.title-lesson:hover {
+    text-decoration: none;
+}
+.lesson-notify:hover {
+    background-color: #e8f0fe;
+}
+.fas.fa-tasks {
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.lesson-info, .create-lesson {
+    border-radius: 8px;
+}
+.create-lesson {
+    padding: 16px 16px 70px;
+}
+.create-lesson-btn {
+    width: 30%;
+    font-size: 20px;
+}
+.comment {
+    width: 85%;
+}
+.btn-comment {
+    margin-top: -38px;
+}
+.submit-dellesson-btn {
+    margin-top: -50px;
+    margin-right: 8px;
+    padding: 4px 6px;
+}
+.notification-info {
+    padding: 16px 12px 52px 12px;
+}
+.people-teacher-title, .people-student-title, .people-create-student-title {
+    font-size: 40px;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.people-student-statistic-title {
+    font-size: 40px;
+    border-bottom: 2px solid red;
+}
+.people-teacher-name {
+    font-size: 20px;
+    padding: 12px;
+}
+.delete-lesson {
+    float: right;
+    margin-top: -46px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+.import-student {
+    padding: 12px 12px 28px 12px;
+}
+.btn-create-student {
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+.btn-delete-student-confirm {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.form-check-input-student {
+   transform: scale(2);
+
+}
